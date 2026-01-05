@@ -1,0 +1,13 @@
+[project]
+name = "fluke45"
+version = "0.1.0"
+description = "GUI application to communicate with Fluke 45 Multimeter via RS232"
+requires-python = ">=3.8"
+dependencies = [
+    "PyQt5>=5.15.0",
+    "pyserial>=3.5",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

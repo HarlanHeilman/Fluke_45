@@ -1,2 +1,4 @@
-C:\Programme\WinPython\python-2.7.6\Lib\site-packages\PyQt4\uic\pyuic.py Fluke45_GUI.ui -o Fluke45_GUI.py
-
+@echo off
+cd /d "%~dp0"
+.venv\Scripts\pyuic5.exe Fluke45_GUI.ui -o Fluke45_GUI.py
+pause
